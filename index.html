@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sewa Jeep Dieng – Rute Eksklusif, Sopir Lokal, Harga Transparan | Putratour.id</title>
+  <meta name="description" content="Sewa jeep Dieng dengan driver profesional. Pilihan rute sunrise, adventure, dan eksplorasi destinasi ikonik. Harga resmi, rute terupdate, booking simpel di Putratour.id.">
+  <link rel="canonical" href="https://www.putratour.id/sewa-jeep-dieng.html"/>
+  <link rel="stylesheet" href="/assets/style.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #f5f8fc;
+      color: #18305b;
+    }
+    .dieng-header {
+      background: linear-gradient(90deg,#4b2c7a 70%, #2a75d3 100%);
+      color: #fff;
+      padding: 1.3rem 2.3rem 1rem 2.3rem;
+      box-shadow: 0 2px 12px #0001;
+      letter-spacing:.03em;
+      border-bottom:2px solid #e3e6f8;
+    }
+    .dieng-header-title {
+      color: #fff;
+      font-size: 1.37rem;
+      font-weight: bold;
+      text-shadow: 0 1.5px 10px #00000021;
+      letter-spacing: .2px;
+      text-decoration: none;
+    }
+    nav {
+      margin-top: 4px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 22px;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 4px 12px;
+      border-radius: 7px;
+      transition: background .15s;
+    }
+    nav a:hover {
+      background: #2653a6;
+      color: #fff;
+    }
+    .container {
+      max-width: 980px;
+      margin: 36px auto 24px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 2.24rem;
+      margin-bottom: 17px;
+      color: #1d2656;
+      font-weight: 800;
+      letter-spacing: .09em;
+    }
+    .desc-jeep {
+      font-size: 1.13rem;
+      margin-bottom: 25px;
+      line-height: 1.77;
+      background: #e6eafc;
+      border-radius: 19px;
+      padding: 20px 20px 17px 20px;
+      box-shadow: 0 2px 14px #4b70b41a;
+      border-left: 6px solid #2a75d3;
+      color: #263251;
+    }
+    .card-grid-jeep {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+      gap: 35px;
+      margin-bottom: 40px;
+    }
+    .jeep-card {
+      background: #fff;
+      border-radius: 22px;
+      box-shadow: 0 4px 30px #19335a13, 0 2px 9px #4285f412;
+      padding: 30px 23px 27px 23px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      min-height: 295px;
+      transition: box-shadow .18s, transform .18s, border .14s;
+      border: 1.7px solid #e3e6f8;
+      overflow: hidden;
+    }
+    .jeep-card:hover {
+      box-shadow: 0 16px 36px #2a75d233, 0 8px 30px #18305b19;
+      transform: translateY(-6px) scale(1.019);
+      border: 1.7px solid #2a75d3;
+      z-index: 3;
+    }
+    .jeep-card .jeep-route {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #3c2079;
+      letter-spacing: .06em;
+      text-shadow: 0 .5px 0 #fff4;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .jeep-card .jeep-route i {
+      font-size: 1.34em;
+      margin-right: 2px;
+      opacity: .88;
+    }
+    .jeep-card .jeep-price {
+      font-size: 1.11rem;
+      margin-bottom: 17px;
+      color: #2a75d3;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .jeep-card .jeep-price::before {
+      content: "🚙";
+      font-size: 1.19em;
+      margin-right: 3px;
+      vertical-align: -.5px;
+      opacity: .90;
+    }
+    .jeep-card ul {
+      margin: 0 0 18px 21px;
+      padding: 0;
+      font-size: 1.02rem;
+      color: #34405b;
+      line-height: 1.68;
+      list-style: disc;
+    }
+    .jeep-card ul li {
+      margin-bottom: 6px;
+      text-shadow: 0 1px 0 #f2f5ff44;
+    }
+    .jeep-card .fasilitas-jeep {
+      margin-top: 2px;
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      background: linear-gradient(90deg, #f3f7fd 40%, #e3e6f8 100%);
+      border-radius: 10px;
+      font-size: 0.98rem;
+      color: #435285;
+      font-weight: 500;
+      letter-spacing: .01em;
+      box-shadow: 0 1px 7px #b3c6e933;
+      border-left: 4px solid #2a75d3;
+    }
+    .jeep-card .btn-jeep {
+      background: linear-gradient(90deg, #2a75d3 70%, #67bbff 100%);
+      color: #fff;
+      border: none;
+      padding: 12px 0;
+      width: 100%;
+      border-radius: 15px;
+      font-weight: 700;
+      font-size: 1.09rem;
+      cursor: pointer;
+      margin-top: auto;
+      margin-bottom: 2px;
+      box-shadow: 0 2px 12px #2a75d218;
+      transition: background .15s, box-shadow .14s, transform .12s;
+      letter-spacing: .08em;
+    }
+    .jeep-card .btn-jeep:hover {
+      background: linear-gradient(90deg, #16398c 60%, #268dfc 100%);
+      transform: scale(1.03);
+      box-shadow: 0 8px 22px #2a75d246;
+    }
+    .info-note {
+      background: #fff8e1;
+      border-left: 4px solid #ffd54f;
+      color: #796100;
+      font-size: 1.04rem;
+      border-radius: 11px;
+      padding: 13px 14px 11px 15px;
+      margin-bottom: 32px;
+      box-shadow: 0 2px 7px #ffecb333;
+    }
+    .faq-jeep {
+      background: #fff;
+      border-radius: 17px;
+      box-shadow: 0 2px 15px #3c20791a;
+      padding: 27px 24px 19px 24px;
+      margin-bottom: 48px;
+      border-left: 5px solid #2a75d3;
+      font-size: 1.07rem;
+    }
+    .faq-jeep h2 {
+      margin-bottom: 10px;
+      font-size: 1.12rem;
+      color: #18305b;
+    }
+    .faq-jeep dt {
+      font-weight: 600;
+      margin-top: 21px;
+      color: #2a75d3;
+    }
+    .faq-jeep dd {
+      margin: 0 0 7px 0;
+      line-height: 1.63;
+      color: #374060;
+      padding-left: 2px;
+    }
+    footer {
+      background: #19335a;
+      color: #fff;
+      text-align: center;
+      padding: 25px 10px 19px 10px;
+      margin-top: 48px;
+      font-size: 1rem;
+      border-radius: 22px 22px 0 0;
+      box-shadow: 0 -2px 14px #0001;
+    }
+    footer a {
+      color: #90caf9;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer a:hover {
+      text-decoration: underline;
+      color: #42a5f5;
+    }
+    @media (max-width:860px){
+      .container{max-width:100vw;}
+      .card-grid-jeep{gap:19px;}
+    }
+    @media (max-width:650px){
+      .container{padding:0 5px;}
+      .dieng-header{padding:15px 7px;}
+      .card-grid-jeep{grid-template-columns:1fr;}
+      .jeep-card{padding:16px 9px 13px 11px; min-height:210px;}
+      .desc-jeep{padding:12px 7px 13px 13px;}
+      .faq-jeep{padding:15px 5vw 15px 5vw;}
+      h1{font-size:1.1rem;}
+    }
+  </style>
+</head>
+<body>
+  <header class="dieng-header">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <a href="/" class="dieng-header-title">Putratour.id</a>
+      <nav>
+        <a href="/sewa-jeep-dieng.html">Home</a>
+        <a href="/paket-wisata-dieng/kontak.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+  <img src="/sewa-jeep-dieng/jeep-dieng.jpg" alt="Sewa Jeep Dieng" style="width:100%;max-width:1100px;display:block;margin:28px auto 20px auto;border-radius:24px;box-shadow:0 3px 18px #18305a19;">
+  <main class="container">
+    <h1>Sewa Jeep Dieng – Pilihan Rute Sunrise, Adventure, & Eksplorasi</h1>
+    <div class="desc-jeep">
+      Nikmati serunya menjelajah <strong>Dieng Plateau</strong> dengan <b>jeep adventure</b> resmi. Sopir lokal berpengalaman, rute eksklusif ke spot-spot legendaris dan hidden gem. Booking fleksibel, harga fix tanpa biaya dadakan. Tersedia rute sunrise, petualangan alam, hingga eksplor destinasi anti-mainstream – semua dijamin aman, nyaman, dan berkesan!
+    </div>
+    <div class="info-note">
+      <b>Info Penting:</b> Semua jeep terdaftar di komunitas resmi Dieng Jeep Club. Booking 24 jam, fix seat dan rute. Max. 4–5 penumpang per jeep, cocok untuk keluarga atau trip private bareng bestie!
+    </div>
+    <section>
+      <div class="card-grid-jeep">
+        <!-- Card 1 -->
+        <div class="jeep-card">
+          <div class="jeep-route"><i>🌄</i>Rute Sunrise Sikunir & Telaga Cebong</div>
+          <div class="jeep-price">Rp 475.000 / pax</div>
+          <div class="fasilitas-jeep">
+            Jeep offroad, sopir lokal, BBM, tiket parkir, air mineral, dokumentasi sunrise.
+          </div>
+          <ul>
+            <li>Start: 03.15 WIB (meeting point area Dieng, bisa request penginapan terdekat)</li>
+            <li>Bukit Sikunir: Nikmati panorama matahari terbit, momen golden hour di atas awan</li>
+            <li>Telaga Cebong: View danau pagi, hunting foto di tepian danau berkabut</li>
+            <li>Foto spot Batu Pandang: Dokumentasi private</li>
+            <li>Bonus: Singgah ke warung kopi lokal setelah trip selesai</li>
+          </ul>
+          <button class="btn-jeep" onclick="window.location.href='/sewa-jeep-dieng/sunrise.html'">Detail & Booking</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="jeep-card">
+          <div class="jeep-route"><i>🌋</i>Rute Adventure Kawah Sikidang & Batu Angkruk</div>
+          <div class="jeep-price">Rp 495.000 / pax</div>
+          <div class="fasilitas-jeep">
+            Jeep adventure, sopir lokal, BBM, tiket parkir, helm safety, snack lokal.
+          </div>
+          <ul>
+            <li>Start: 07.30 atau 13.00 WIB (flexible, tergantung itinerary trip)</li>
+            <li>Kawah Sikidang: Eksplor kawah aktif, uji adrenalin di area offroad jeep</li>
+            <li>Batu Angkruk: Spot jembatan kaca & gardu pandang viral Dieng</li>
+            <li>Bukit Scooter: View landscape dan spot selfie ikonik</li>
+            <li>Bonus: Jalan-jalan ke Pasar Dieng, jajan carica & tempe kemul</li>
+          </ul>
+          <button class="btn-jeep" onclick="window.location.href='/sewa-jeep-dieng/adventure.html'">Detail & Booking</button>
+        </div>
+        <!-- Card 3 -->
+        <div class="jeep-card">
+          <div class="jeep-route"><i>🏞️</i>Rute Eksplor Candi Arjuna & Air Terjun Sikarim</div>
+          <div class="jeep-price">Rp 530.000 / pax</div>
+          <div class="fasilitas-jeep">
+            Jeep private, driver friendly, BBM, parkir, asuransi wisata, snack, tiket masuk air terjun.
+          </div>
+          <ul>
+            <li>Start: 09.00 WIB, meeting point flexible di Wonosobo/Dieng</li>
+            <li>Komplek Candi Arjuna: Wisata sejarah, sunrise view jika pagi</li>
+            <li>Air Terjun Sikarim: Hidden gem, air terjun tertinggi di Dieng, trek pendek</li>
+            <li>Kahyangan Skyline: View 360°, spot foto di atas pegunungan</li>
+            <li>Bonus: Coffee stop di warung rakyat lereng Dieng</li>
+          </ul>
+          <button class="btn-jeep" onclick="window.location.href='/sewa-jeep-dieng/eksplorasi.html'">Detail & Booking</button>
+        </div>
+      </div>
+    </section>
+    <section class="faq-jeep">
+      <h2>FAQ Sewa Jeep Dieng</h2>
+      <dl>
+        <dt>Berapa kapasitas jeep Dieng?</dt>
+        <dd>Setiap jeep ideal untuk 1–4 penumpang (bisa max 5 tanpa barang berlebih). Nyaman untuk private trip & keluarga.</dd>
+        <dt>Apakah rute bisa request atau custom?</dt>
+        <dd>Ya! Bisa custom rute selama masih area Dieng dan sekitarnya. Silakan konsultasi itinerary sebelum booking.</dd>
+        <dt>Driver jeep ramah & berpengalaman?</dt>
+        <dd>100% lokal Dieng, bersertifikat komunitas, paham rute wisata, safety driving terjamin, selalu ontime.</dd>
+        <dt>Cara booking jeep Dieng?</dt>
+        <dd>Klik <b>Detail & Booking</b> sesuai rute di atas, atau hubungi admin via <a href="/paket-wisata-dieng/kontak.html">Kontak</a> untuk fast response & tanya-tanya tanpa komitmen.</dd>
+      </dl>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Putratour.id &middot; Sewa Jeep Dieng Adventure <br>
+    <a href="https://www.putratour.id/sewa-jeep-dieng.html">https://www.putratour.id/sewa-jeep-dieng.html</a>
+  </footer>
+</body>
+</html>
