@@ -20,11 +20,12 @@ Semua konten original, SEO-ready, dan bisa di-custom sesuai kebutuhan wisatawan 
 ## Struktur File
 
 /
-├─ index.html # Halaman utama, list 3 paket
-├─ sunrise.html # Detail Paket Sunrise Sikunir & Telaga Cebong
-├─ adventure.html # Detail Paket Adventure Kawah Sikidang & Batu Angkruk
-├─ eksplorasi.html # Detail Paket Eksplorasi Candi Arjuna & Air Terjun Sikarim
-├─ /assets/ # Folder CSS, gambar, dan resource lainnya
+├── index.html         # Halaman utama, list 3 paket
+├── sunrise.html       # Detail Paket Sunrise Sikunir & Telaga Cebong
+├── adventure.html     # Detail Paket Adventure Kawah Sikidang & Batu Angkruk
+├── eksplorasi.html    # Detail Paket Eksplorasi Candi Arjuna & Air Terjun Sikarim
+├── assets/            # Folder CSS, gambar, dan resource lainnya
+
 
 
 ## Cara Pakai
